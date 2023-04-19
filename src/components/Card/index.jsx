@@ -1,27 +1,14 @@
-import cardImg from "../../assets/naruto-shippuden.jpg";
 import Button from "../Button";
 import styles from "./styles.module.css";
 
-function Card() {
+function Card({ title, imgCard, description }) {
   return (
     <div className={styles.container}>
-      <img
-        className={styles.imgCard}
-        src={cardImg}
-        alt="Pôster Naruto Shippuden"
-      />
+      <img className={styles.imgCard} src={imgCard} alt={title} />
 
       <div>
-        <h1>Naruto Shippuden (2007)</h1>
-        <p>
-          <span style={{ fontWeight: "bold" }}>Naruto Shippuden</span> é a
-          segunda parte do anime Naruto, que adapta a continuação do mangá
-          original escrito por{" "}
-          <span style={{ fontWeight: "bold" }}>Masashi Kishimoto</span> e
-          consiste em 500 episódios ao todo. Ambientada dois anos após os
-          eventos da série original, Shippuden acompanha o ninja adolescente
-          Naruto e seus aliados.
-        </p>
+        <h1>{title}</h1>
+        <p>{description}</p>
         <Button />
       </div>
     </div>
