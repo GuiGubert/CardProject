@@ -16,12 +16,12 @@ function App() {
         imgCard={imgNaruto}
       />
       <Card
-        title="One Punch-Man"
+        title="One Punch-Man (2009)"
         description="One Punch-Man é uma série de webcomic criada pelo autor com o pseudónimo One, e é publicada desde 2009. A série rapidamente tornou-se um fenómeno viral, alcançando mais de 7,9 milhões de acessos, em junho de 2012."
         imgCard={imgOnePunch}
       />
       <Card
-        title="Dragon Ball Z"
+        title="Dragon Ball Z (1989)"
         description="As aventuras de um poderoso guerreiro chamado Goku, seu filho Gohan e seus aliados, que se esforçam para defender a Terra das ameaças. Eles são auxiliados por um dragão que concede os desejos de quem quer que reúna as sete Esferas do Dragão."
         imgCard={imgDBZ}
       />
