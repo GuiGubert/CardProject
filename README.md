@@ -1,6 +1,6 @@
 # Card Project ⚛️
 
-<h2>Card sobre Naruto Shippuden</h2>
+<h2>Card sobre Animes</h2>
 
 <p>Projeto desenvolvido fazendo a utilização de React + Vite! Feito para treinar a criação de components e a estilização dos mesmos com CSS in-line, module CSS, e, estilização global... </p>
 
